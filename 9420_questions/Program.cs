@@ -31,6 +31,15 @@ namespace _9420_questions
             return root;
         }
 
+        // Tree structure:
+        //          Sunday
+        //         /      \
+        //      monday    friday
+        //     /    \       /
+        //  tuesday Wednesday Saturday
+        //                 \
+        //                 Thursday
+
         public static BinNode<int> BuildIntTree()
         {
             // Root node
@@ -53,6 +62,15 @@ namespace _9420_questions
             return root;
         }
 
+        // Tree structure:
+        //          1
+        //       /     \
+        //      3       2
+        //     /       / \
+        //    9       6   8
+        //     \
+        //      7
+
         static BinNode<int> BuildValidTree()
         {
             // Root node
@@ -74,6 +92,13 @@ namespace _9420_questions
 
             return root;
         }
+
+        // Tree structure:
+        //          1
+        //       /     \
+        //      2       3
+        //     / \     / \
+        //    4   5   6   7
 
 
         //Q1
